@@ -1,13 +1,12 @@
-article
+article, aside
 {
     background-color: #F2F2F2;
     border-radius: 10px;
 }
 
-aside
+footer
 {
     background-color: #F2F2F2;
-    border-radius: 10px;
 }
 
 body
@@ -19,4 +18,10 @@ body
 h1
 {
     font-weight: 800;
+}
+
+.carte
+{
+    background-color: white;
+    border-radius: 10px;
 }
