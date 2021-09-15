@@ -13,6 +13,7 @@ body
 {
     font-family: Raleway;
     font-weight: 400;
+    margin : 3% 3% 3% 3%;
 }
 
 h1
@@ -24,4 +25,16 @@ h1
 {
     background-color: white;
     border-radius: 10px;
+}
+
+footer
+{
+    display : flex;
+    justify-content: space-between;
+}
+
+.sfooter
+{
+    display: flex;
+    flex-direction: column;
 }
