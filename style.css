@@ -34,6 +34,7 @@ footer {
 
 .logo {
     width: 10%;
+    height: 10%;
 }
 
 aside {
@@ -52,4 +53,32 @@ article {
 
 .séparation {
     width: 3%;
+}
+
+header {
+    padding: 3.5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    width: 40%; 
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #0065FC;
+    text-decoration: none;
+}
+
+.inscrire {
+    font-weight: 800;
 }
