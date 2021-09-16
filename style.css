@@ -1,40 +1,55 @@
-article, aside
-{
+article, aside {
     background-color: #F2F2F2;
     border-radius: 10px;
 }
 
-footer
-{
+footer {
     background-color: #F2F2F2;
 }
 
-body
-{
+body {
     font-family: Raleway;
     font-weight: 400;
-    margin : 3% 3% 3% 3%;
 }
 
-h1
-{
+h1 {
     font-weight: 800;
 }
 
-.carte
-{
+.carte {
     background-color: white;
     border-radius: 10px;
 }
 
-footer
-{
+footer {
     display : flex;
     justify-content: space-between;
 }
 
-.sfooter
-{
+.sfooter {
     display: flex;
     flex-direction: column;
+    width: 33%;
+}
+
+.logo {
+    width: 10%;
+}
+
+aside {
+    width: 29%;
+    overflow: hidden;
+}
+
+article {
+    width: 61%;
+}
+
+.s1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.séparation {
+    width: 3%;
 }
