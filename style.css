@@ -34,6 +34,8 @@ footer {
 
 .logo {
     width: 10%;
+    object-fit: contain;
+    align-self: flex-end;
 }
 
 aside {
@@ -55,21 +57,34 @@ article {
 }
 
 header {
-    padding-left: 3.5%;
-    padding-right: 3.5%;
-    padding-top: 3.5%;
-    padding-bottom: 2%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-bottom: 2%;
     display: flex;
     justify-content: space-between;
 }
 
-.menu {
+.navigation {
     display: flex;
     justify-content: space-around;
+    height: 48px;
+    align-items: flex-end;
 }
 
 nav {
     width: 40%; 
+}
+
+.menu {
+    padding-top: 48px;
+    color: #0065FC;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.menu:hover {
+    border-top: #0065FC 5px solid;
+    padding-top: 48px;
 }
 
 li {
@@ -77,8 +92,8 @@ li {
 }
 
 a {
-    color: #0065FC;
     text-decoration: none;
+    color: #0065FC;
 }
 
 .inscrire {
@@ -158,11 +173,29 @@ input {
     border-radius: 30px;
 }
 
+.premier:hover {
+    display: flex;
+    width: 20%;
+    border: solid #F2F2F2 4px;
+    border-radius: 30px;
+    color: white;
+    background-color: #0065FC;
+}
+
 .deuxième {
     display: flex;
     width: 15%;
     border: solid #F2F2F2 4px;
     border-radius: 30px;
+}
+
+.deuxième:hover {
+    display: flex;
+    width: 15%;
+    border: solid #F2F2F2 4px;
+    border-radius: 30px;
+    color: white;
+    background-color: #0065FC;
 }
 
 .troisième {
@@ -172,11 +205,29 @@ input {
     border-radius: 30px;
 }
 
+.troisième:hover {
+    display: flex;
+    width: 20%;
+    border: solid #F2F2F2 4px;
+    border-radius: 30px;
+    color: white;
+    background-color: #0065FC;
+}
+
 .quatrième {
     display: flex;
     width: 25%;
     border: solid #F2F2F2 4px;
     border-radius: 30px;
+}
+
+.quatrième:hover {
+    display: flex;
+    width: 25%;
+    border: solid #F2F2F2 4px;
+    border-radius: 30px;
+    color: white;
+    background-color: #0065FC;
 }
 
 .billet {
