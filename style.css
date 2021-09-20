@@ -3,10 +3,6 @@ body {
     font-weight: 400;
 }
 
-img {
-    width: 100%;
-}
-
 .hôtel {
     width: 100%;
     border-radius: 10px;
@@ -49,7 +45,7 @@ footer {
     margin-left: 3.5%;
     margin-right: 3.5%;
     margin-top: 3.5%;
-    overflow: hidden;
+    line-height: 100%;
 }
 
 .gauche {
@@ -66,16 +62,17 @@ footer {
     background-color: #F2F2F2;
     border-radius: 10px;
     padding: 2% 2% 2% 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .armoire {
     display: flex;
     flex-wrap: wrap;
-    line-height: 50%;
-    font-size: 80%;
 }
 
-.carte {
+.carteg {
     background-color: white;
     border-radius: 10px;
     border: white 3px;
@@ -83,20 +80,48 @@ footer {
     margin: 2%;
     display: flex;
     flex-wrap: wrap;
-    height: 30%;
 }
 
-.boite {
+.carted {
+    background-color: white;
+    border-radius: 10px;
+    border: white 3px;
+    width: 100%;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+}
+
+.boiteg {
     width: 100%;
     padding: 2%;
-    padding-bottom: 0%;
     overflow: hidden;
-    height: 60%;
+    height: 120px;
 }
 
-.description {
-    padding-left: 8%;
+.boited {
+    width: 30%;
 }
+
+.descriptiong {
+    padding-left: 8%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.descriptiond {
+    padding-left: 8%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
 .navigation {
     display: flex;
     justify-content: space-around;
@@ -346,4 +371,34 @@ input {
     padding-left: 1.2%;
     padding-right: 1.2%;
     margin-right: 1%;
+}
+
+.bleu {
+    color: #0065FC;
+}
+
+.gris {
+    color: #F2F2F2;
+}
+
+.populaires {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grossi {
+    font-size: 300%;
+}
+
+img {
+    width: 150px;
+    height: 140px;
+    border: 5px solid white;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.afficher {
+    padding-left: 3.25%;
+    font-weight: 800;
 }
