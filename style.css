@@ -21,18 +21,6 @@ header {
     justify-content: space-between;
 }
 
-footer {
-    display : flex;
-    justify-content: space-between;
-    background-color: #F2F2F2;
-}
-
-.sfooter {
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-}
-
 .logo {
     width: 10%;
     object-fit: contain;
@@ -384,10 +372,11 @@ input {
 .populaires {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .grossi {
-    font-size: 300%;
+    font-size: 200%;
 }
 
 img {
@@ -401,4 +390,119 @@ img {
 .afficher {
     padding-left: 3.25%;
     font-weight: 800;
+}
+
+.s2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin : 3.5%;
+}
+
+.carteb {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #F2F2F2;
+    width: 100%;
+}
+
+.colonnes {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.colonne {
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.géant {
+    height: 500px;
+}
+
+.grand {
+    height: 280px;
+}
+
+.petit {
+    height: 180px;
+}
+
+.descriptionb {
+    padding-left: 8%;
+    display: flex;
+    align-items: center;
+}
+
+.boiteb1 {
+    width: 100%;
+    height: 440px;
+    overflow: hidden;
+}
+
+.boiteb2 {
+    width: 100%;
+    height: 220px;
+    overflow: hidden;
+}
+
+.boiteb3 {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+
+.imgactivités1 {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgactivités2 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgactivités3 {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border: hidden;
+    border-radius: 20px 20px 0 0;
+}
+
+.lifooter {
+    margin-bottom: 3%;
+}
+
+.afooter {
+    color: black;
+}
+
+footer {
+    display : flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+
+.sfooter {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+ul {
+    padding: 0;
 }
