@@ -1,0 +1,40 @@
+body {
+    font-size: 1.2vw;
+}
+
+.droite {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.gauche {
+    width: 100%;
+}
+
+.s1 {
+    flex-wrap: wrap-reverse;
+}
+
+.descriptiond {
+    width: 50%;
+}
+
+.boited {
+    width: 50%;
+    height: 14.3vw;
+}
+
+.imgd {
+    width: 350px;
+    height: 97.5%;
+}
+
+.armoired {
+    height: 60vw;
+    margin-top: 0;
+}
+
+.carted {
+    margin-top: 5%;
+    height: 15vw;
+}
