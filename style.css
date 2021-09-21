@@ -4,12 +4,6 @@ body {
     font-size: 1vw;
 }
 
-.hôtel {
-    width: 100%;
-    border-radius: 10px;
-    border: white 5px;
-}
-
 h1 {
     font-weight: 800;
 }
@@ -70,6 +64,7 @@ header {
     justify-content: space-between;
     margin-top: 10%;
     height: 100%;
+    width: 100%;
 }
 
 .carteg {
@@ -93,12 +88,15 @@ header {
 .boiteg {
     width: 100%;
     padding: 2%;
+    padding-bottom: 0;
     overflow: hidden;
     height: 120px;
 }
 
 .boited {
-    width: 30%;
+    width: 9vw;
+    overflow: hidden;
+    height: 10vw;
 }
 
 .descriptiong {
@@ -388,14 +386,6 @@ input {
     font-size: 2vw;
 }
 
-img {
-    width: 150px;
-    height: 140px;
-    border: 5px solid white;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
 .afficher {
     padding-top: 3.25%;
     font-weight: 800;
@@ -466,30 +456,6 @@ img {
     overflow: hidden;
 }
 
-.imgactivités1 {
-    width: 100%;
-    height: 440px;
-    object-fit: cover;
-    border: hidden;
-    border-radius: 20px 20px 0 0;
-}
-
-.imgactivités2 {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border: hidden;
-    border-radius: 20px 20px 0 0;
-}
-
-.imgactivités3 {
-    width: 100%;
-    height: 120px;
-    object-fit: cover;
-    border: hidden;
-    border-radius: 20px 20px 0 0;
-}
-
 .lifooter {
     margin-bottom: 3%;
 }
@@ -534,4 +500,41 @@ ul {
     color: black;
     display: block;
     width: 100%;
+}
+
+.imgg {
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    border: white 5px;
+    object-fit: cover;
+}
+
+.imgd {
+    width: 150px;
+    height: 93.75%;
+    border: 5px solid white;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.imgactivités1 {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgactivités2 {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.imgactivités3 {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
 }
