@@ -52,33 +52,41 @@ header {
     padding: 2% 2% 2% 2%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 
-.armoire {
+.armoireg {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.armoired {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10%;
+    height: 100%;
 }
 
 .carteg {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     border: white 3px;
-    width: 29%;
-    margin: 2%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
 .carted {
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     border: white 3px;
     width: 100%;
-    margin: 2%;
     display: flex;
     flex-direction: row;
-    height: 150px;
 }
 
 .boiteg {
@@ -388,7 +396,7 @@ img {
 }
 
 .afficher {
-    padding-left: 3.25%;
+    padding-top: 3.25%;
     font-weight: 800;
 }
 
@@ -505,4 +513,24 @@ footer {
 
 ul {
     padding: 0;
+}
+
+.cliquableg {
+    color: black;
+    display: block;
+    width: 29%;
+    margin-bottom: 3%;
+}
+
+.cliquabled {
+    color: black;
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+.cliquableb {
+    color: black;
+    display: block;
+    width: 100%;
 }
