@@ -16,27 +16,32 @@ body {
 }
 
 .descriptiond {
-    width: 50%;
+    width: 55%;
+    height: 10vw;
+    padding: 0;
+    padding-left: 5vw;
+    font-size: 150%;
 }
 
 .boited {
-    width: 50%;
+    width: 45%;
     height: 14.3vw;
 }
 
 .imgd {
-    width: 350px;
-    height: 97.5%;
+    width: 480px;
 }
 
 .armoired {
-    height: 60vw;
+    height: 54vw;
     margin-top: 0;
 }
 
 .carted {
-    margin-top: 5%;
+    margin-top: 1vw;
     height: 15vw;
+    align-items: center;
+    justify-content: flex-start;
 }
 
 .quatrième {
