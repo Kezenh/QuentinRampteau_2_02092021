@@ -38,3 +38,11 @@ body {
     margin-top: 5%;
     height: 15vw;
 }
+
+.quatrième {
+    width: 18vw;
+}
+
+.quatrième:hover {
+    width: 18vw;
+}
