@@ -1,0 +1,33 @@
+body {
+    font-size: 150%;
+}
+
+.navigation {
+    flex-wrap: wrap;
+    height: 100%;
+    background: lightcoral;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.descend {
+    order: 1;
+    width: 50%;
+}
+
+.menu {
+    background: red;
+}
+
+header{
+    background: indianred;
+    height: 50vw;
+}
+
+nav {
+    height: 100%;
+}
+
+.logo {
+    width: 30%;
+}

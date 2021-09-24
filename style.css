@@ -1,60 +1,75 @@
 body {
     font-family: Raleway;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 15px;
+    width: 1440px;
+    margin: 0;
 }
 
 h1 {
     font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
 }
 
 header {
-    margin-left: 3.5%;
-    margin-right: 3.5%;
-    margin-bottom: 2%;
+    height: 131px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .logo {
-    width: 10%;
-    object-fit: contain;
-    align-self: flex-end;
+    width: 93px;
 }
 
 .s1 {
     display: flex;
     justify-content: space-between;
-    margin-left: 3.5%;
-    margin-right: 3.5%;
-    margin-top: 3.5%;
-    line-height: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 37px;
 }
 
 .gauche {
-    width: 60%;
+    width: 880px;
     background-color: #F2F2F2;
-    border-radius: 10px;
-    padding: 2% 2% 2% 2%;
+    border-radius: 16px;
+    padding: 47px 40px 50px 40px;
     display: flex;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 .droite {
-    width: 30%;
+    width: 420px;
     background-color: #F2F2F2;
-    border-radius: 10px;
-    padding: 2% 2% 2% 2%;
+    border-radius: 16px;
+    padding: 47px 40px 34px 37px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .armoireg {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 5%;
+    margin-top: 23px;
 }
 
 .armoired {
@@ -62,9 +77,24 @@ header {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10%;
+    margin-top: 23px;
     height: 100%;
     width: 100%;
+}
+
+.cliquableg {
+    color: black;
+    display: block;
+    width: 246px;
+    height: 199px;
+    margin-bottom: 30px;
+}
+
+.cliquabled {
+    color: black;
+    display: block;
+    width: 343px;
+    height: 144px;
 }
 
 .carteg {
@@ -79,42 +109,68 @@ header {
 .carted {
     background-color: white;
     border-radius: 20px;
-    border: white 3px;
+    border: white 5px;
     width: 100%;
+    height: 144px;
     display: flex;
     flex-direction: row;
 }
 
 .boiteg {
     width: 100%;
-    padding: 2%;
-    padding-bottom: 0;
     overflow: hidden;
-    height: 120px;
+    height: 119px;
 }
 
 .boited {
-    width: 30%;
+    width: 132px;
     overflow: hidden;
-    height: 10vw;
+    height: 144px;
+}
+
+.imgg {
+    width: 236px;
+    height: 129px;
+    border-radius: 20px;
+    border: white 5px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 5px;
+    box-sizing: content-box;
+}
+
+.imgd {
+    width: 142px;
+    height: 134px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .descriptiong {
-    padding-left: 8%;
-    padding-bottom: 5%;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 11px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    line-height: 21px;
+    height: 80px;
+    box-sizing: border-box;
 }
 
 .descriptiond {
-    padding-left: 8%;
-    padding-top: 5%;
-    padding-bottom: 5%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 211px;
+    height: 144px;
+    box-sizing: border-box;
+    line-height: 21px;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 11px;
 }
 
 .navigation {
@@ -154,41 +210,40 @@ a {
 }
 
 .trouver {
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .nature {
     font-weight: 500;
-    font-size: 1vw;
-    line-height: 100%;
-}
-
-h1 {
-    line-height: 50%;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 19px;
 }
 
 .barre {
     display: flex;
     justify-content: space-between;
-    width: 30%;
+    width: 420px;
+    height: 51px;
+    box-sizing: border-box;
 }
 
 .début {
     background-color: #F2F2F2;
-    border-right: solid #F2F2F2 2px;
-    width: 15%;
+    border-right: solid #F2F2F2 1px;
+    width: 52px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius:  17px 0 0 17px ;
+    border-radius:  14px 0 0 14px ;
 }
 
 form {
     width: 50%;
     padding-left: 5%;
-    border-top: solid #F2F2F2 2px;
-    border-bottom: solid #F2F2F2 2px;
+    border-top: solid #F2F2F2 1px;
+    border-bottom: solid #F2F2F2 1px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -197,99 +252,120 @@ form {
 
 .fin {
     background-color: #0065FC;
-    width: 35%;
-    border-radius: 0 17px 17px 0; 
+    width: 134px;
+    border-radius: 0 14px 14px 0; 
     color: white;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 input {
     font-weight: 800;
     border: none;
-    font-size: 1.1vw;
+    font-size: 110%;
 }
 
 .filtres {
-    width: 70%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     font-weight: 800;
-    margin-top: 3%;
+    margin-top: 31px;
+}
+
+.marge {
+    margin-right: 32px;
 }
 
 .premier {
     display: flex;
     align-items: flex-start;
-    width: 12vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 194px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .premier:hover {
     display: flex;
-    width: 12vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 194px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .deuxième {
     display: flex;
-    width: 10vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 152px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .deuxième:hover {
     display: flex;
-    width: 10vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 152px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .troisième {
     display: flex;
-    width: 12vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 184px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .troisième:hover {
     display: flex;
-    width: 12vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 184px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .quatrième {
     display: flex;
-    width: 15vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 242px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .quatrième:hover {
     display: flex;
-    width: 15vw;
-    height: 3vw;
-    border: solid #F2F2F2 4px;
+    width: 242px;
+    height: 50px;
+    border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
+    box-sizing: border-box;
+    margin-right: 24px;
 }
 
 .billet {
@@ -299,8 +375,10 @@ input {
     background-color: #DEEBFF;
     border-radius: 50%;
     color: #0065FC;
-    height: 3vw;
-    width: 3vw;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-top: -2px;
 }
 
 .enfant {
@@ -310,8 +388,10 @@ input {
     background-color: #DEEBFF;
     border-radius: 50%;
     color: #0065FC;
-    height: 3vw;
-    width: 3vw;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-top: -2px;
 }
 
 .cœur {
@@ -321,8 +401,10 @@ input {
     background-color: #DEEBFF;
     border-radius: 50%;
     color: #0065FC;
-    height: 3vw;
-    width: 3vw;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-top: -2px;
 }
 
 .chien {
@@ -332,37 +414,44 @@ input {
     background-color: #DEEBFF;
     border-radius: 50%;
     color: #0065FC;
-    height: 3vw;
-    width: 3vw;
+    height: 50px;
+    width: 50px;
+    margin-left: -2px;
+    margin-top: -2px;
 }
 
 .économique {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .familial {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .romantique {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .animaux {
-    text-align: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .plusde {
     display: flex;
-    margin-top: 3%;
+    align-items: center;
+    margin-top: 31px;
 }
 
 .info {
@@ -370,11 +459,12 @@ input {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    border: #F2F2F2 solid 3px;
+    border: #F2F2F2 solid 1px;
     color: #0065FC;
-    width: 2vw;
-    height: 2vw;
-    margin-right: 2vw;
+    width: 24px;
+    height: 24px;
+    box-sizing: border-box;
+    margin-right: 12px;
 }
 
 .bleu {
@@ -385,6 +475,10 @@ input {
     color: #F2F2F2;
 }
 
+.enbas {
+    align-self: flex-end;
+}
+
 .populaires {
     display: flex;
     justify-content: space-between;
@@ -392,18 +486,18 @@ input {
 }
 
 .grossi {
-    font-size: 2vw;
+    font-size: 200%;
 }
 
 .afficher {
-    padding-top: 3.25%;
+    padding-top: 13px;
     font-weight: 800;
 }
 
 .s2 {
     display: flex;
     flex-wrap: wrap;
-    margin : 3.5%;
+    margin : 50px;
 }
 
 .carteb {
@@ -477,8 +571,8 @@ footer {
     display : flex;
     justify-content: space-between;
     background-color: #F2F2F2;
-    padding-left: 3.5%;
-    padding-right: 3.5%;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .sfooter {
@@ -491,40 +585,10 @@ ul {
     padding: 0;
 }
 
-.cliquableg {
-    color: black;
-    display: block;
-    width: 29%;
-    margin-bottom: 3%;
-}
-
-.cliquabled {
-    color: black;
-    display: block;
-    width: 100%;
-    height: 150px;
-}
-
 .cliquableb {
     color: black;
     display: block;
     width: 100%;
-}
-
-.imgg {
-    width: 100%;
-    height: 140px;
-    border-radius: 20px;
-    border: white 5px;
-    object-fit: cover;
-}
-
-.imgd {
-    width: 150px;
-    height: 93.75%;
-    border: 5px solid white;
-    border-radius: 20px;
-    object-fit: cover;
 }
 
 .imgactivités1 {
