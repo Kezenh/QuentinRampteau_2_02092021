@@ -104,6 +104,7 @@ header {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    box-shadow: 3px 3px 3px 3px #e3e3e3;
 }
 
 .carted {
@@ -114,6 +115,7 @@ header {
     height: 144px;
     display: flex;
     flex-direction: row;
+    box-shadow: 3px 3px 3px 3px #e3e3e3;
 }
 
 .boiteg {
@@ -185,15 +187,14 @@ nav {
 }
 
 .menu {
-    padding-top: 48px;
+    padding-top: 71px;
     color: #0065FC;
-    padding-left: 6%;
-    padding-right: 6%;
+    padding-left: 28px;
+    padding-right: 28px;
 }
 
 .menu:hover {
-    border-top: #0065FC 5px solid;
-    padding-top: 48px;
+    border-top: #0065FC 2px solid;
 }
 
 li {
@@ -497,70 +498,81 @@ input {
 .s2 {
     display: flex;
     flex-wrap: wrap;
-    margin : 50px;
-}
-
-.carteb {
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px 5px #F2F2F2;
-    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 65px;
 }
 
 .colonnes {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 26px;
 
 }
 
 .colonne {
-    width: 22%;
+    width: 302px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
+.cliquableb {
+    color: black;
+    display: block;
+    width: 100%;
+}
+
+.carteb {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px #e3e3e3;
+    width: 100%;
+    overflow: hidden;
+}
+
 .géant {
-    height: 500px;
+    height: 445px;
 }
 
 .grand {
-    height: 280px;
+    height: 235px;
 }
 
 .petit {
-    height: 180px;
+    height: 165px;
 }
 
 .descriptionb {
-    padding-left: 8%;
+    padding-left: 19px;
+    height: 55px;
     display: flex;
     align-items: center;
 }
 
 .boiteb1 {
     width: 100%;
-    height: 440px;
+    height: 390px;
     overflow: hidden;
 }
 
 .boiteb2 {
     width: 100%;
-    height: 220px;
+    height: 180px;
     overflow: hidden;
 }
 
 .boiteb3 {
     width: 100%;
-    height: 120px;
+    height: 110px;
     overflow: hidden;
 }
 
 .lifooter {
-    margin-bottom: 3%;
+    margin-bottom: 18px;
 }
 
 .afooter {
@@ -573,6 +585,8 @@ footer {
     background-color: #F2F2F2;
     padding-left: 50px;
     padding-right: 50px;
+    padding-top: 52px;
+    margin-top: 60px;
 }
 
 .sfooter {
@@ -585,29 +599,20 @@ ul {
     padding: 0;
 }
 
-.cliquableb {
-    color: black;
-    display: block;
-    width: 100%;
-}
-
 .imgactivités1 {
     width: 100%;
-    height: 440px;
+    height: 390px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
 }
 
 .imgactivités2 {
     width: 100%;
     height: 220px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
 }
 
 .imgactivités3 {
     width: 100%;
     height: 120px;
     object-fit: cover;
-    border-radius: 20px 20px 0 0;
 }
