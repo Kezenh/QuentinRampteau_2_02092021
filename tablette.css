@@ -1,53 +1,34 @@
-body {
-    font-size: 1.2vw;
-}
-
-.droite {
-    width: 100%;
-    margin-bottom: 5%;
-}
-
-.gauche {
-    width: 100%;
-}
-
 .s1 {
     flex-wrap: wrap-reverse;
 }
 
-.descriptiond {
-    width: 55%;
-    height: 10vw;
-    padding: 0;
-    padding-left: 5vw;
-    font-size: 150%;
+.gauche {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.droite {
+    width: 100%;
+}
+
+.cliquabled {
+    margin-bottom: 20px;
+    width: 100%;
 }
 
 .boited {
-    width: 45%;
-    height: 14.3vw;
+    width: 400px;
 }
 
 .imgd {
-    width: 480px;
+    width: 410px;
 }
 
-.armoired {
-    height: 54vw;
-    margin-top: 0;
+.descriptiond {
+    width: 400px;
+    justify-content: flex-end;
 }
 
-.carted {
-    margin-top: 1vw;
-    height: 15vw;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.quatrième {
-    width: 18vw;
-}
-
-.quatrième:hover {
-    width: 18vw;
+.colonne {
+    width: 200px;
 }
