@@ -3,6 +3,7 @@ body {
     font-weight: 400;
     font-size: 15px;
     margin: 0;
+    width: 1440px;
 }
 
 h1 {
@@ -185,28 +186,36 @@ nav {
     width: 40%; 
 }
 
-.menu {
-    padding-top: 71px;
-    color: #0065FC;
-    padding-left: 28px;
-    padding-right: 28px;
-}
-
-.menu:hover {
-    border-top: #0065FC 2px solid;
-}
-
 li {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
+}
+
+.hbleu {
+    color: black;
+    padding-top: 71px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.hbleu:hover {
     color: #0065FC;
+    border-top: #0065FC 2px solid;
 }
 
 .inscrire {
     font-weight: 800;
+    color: #0065FC;
+    padding-top: 71px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.inscrire:hover {
+    border-top: #0065FC 2px solid;
 }
 
 .trouver {
@@ -571,7 +580,7 @@ input {
 }
 
 .lifooter {
-    margin-bottom: 18px;
+    margin-top: 18px;
 }
 
 .afooter {
@@ -592,10 +601,12 @@ footer {
     display: flex;
     flex-direction: column;
     width: 33%;
+    margin-bottom: 40px;
 }
 
 ul {
     padding: 0;
+    margin: 0;
 }
 
 .imgactivités1 {
