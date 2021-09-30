@@ -1,5 +1,22 @@
+header {
+    width: 924px;
+}
+
+.trouver {
+    width: 924px;
+}
+
 .s1 {
+    width: 924px;
     flex-wrap: wrap-reverse;
+}
+
+.s2 {
+    width: 924px;
+}
+
+footer {
+    width: 924px;
 }
 
 .gauche {
@@ -31,4 +48,20 @@
 
 .colonne {
     width: 200px;
+}
+
+.premier {
+    margin-right: 11px;
+}
+
+.deuxième{
+    margin-right: 11px;
+}
+
+.troisième {
+    margin-right: 11px;
+}
+
+.quatrième {
+    margin-right: 11px;
 }

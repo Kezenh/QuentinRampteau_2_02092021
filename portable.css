@@ -1,4 +1,5 @@
 header {
+    width: 375px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 22px;
@@ -9,23 +10,25 @@ header {
 }
 
 .trouver {
+    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .s1 {
+    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .s2 {
+    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-body {
-    width: 375px;
-    overflow-x: hidden;
+footer {
+    width: 335px;
 }
 
 .navigation {
@@ -81,18 +84,36 @@ nav {
 
 .deuxième{
     margin-top: 13px;
-    margin-right: 11px;
     width: 140px;
+    margin-right: 0;
 }
 
 .troisième {
     margin-top: 13px;
-    margin-right: 11px;
     width: 169px;
+    margin-right: 0;
 }
 
 .quatrième {
     margin-top: 13px;
-    margin-right: 11px;
     width: 220px;
+    margin-right: 0;
+}
+
+.finrechercher {
+    display: none;
+}
+
+.finloupe {
+    background-color: #0065FC;
+    width: 51px;
+    border-radius: 14px 14px 14px 14px; 
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barre {
+    width: 337px;
 }
