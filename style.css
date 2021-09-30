@@ -3,7 +3,6 @@ body {
     font-weight: 400;
     font-size: 15px;
     margin: 0;
-    width: 1440px;
 }
 
 h1 {
@@ -280,6 +279,7 @@ input {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    flex-wrap: wrap;
     font-weight: 800;
     margin-top: 31px;
 }
@@ -301,14 +301,11 @@ input {
 
 .premier:hover {
     display: flex;
-    width: 194px;
-    height: 50px;
     border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
     box-sizing: border-box;
-    margin-right: 24px;
 }
 
 .deuxième {
@@ -323,14 +320,11 @@ input {
 
 .deuxième:hover {
     display: flex;
-    width: 152px;
-    height: 50px;
     border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
     box-sizing: border-box;
-    margin-right: 24px;
 }
 
 .troisième {
@@ -345,14 +339,11 @@ input {
 
 .troisième:hover {
     display: flex;
-    width: 184px;
-    height: 50px;
     border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
     box-sizing: border-box;
-    margin-right: 24px;
 }
 
 .quatrième {
@@ -367,14 +358,11 @@ input {
 
 .quatrième:hover {
     display: flex;
-    width: 242px;
-    height: 50px;
     border: solid #F2F2F2 2px;
     border-radius: 30px;
     color: white;
     background-color: #0065FC;
     box-sizing: border-box;
-    margin-right: 24px;
 }
 
 .billet {

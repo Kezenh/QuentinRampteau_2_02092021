@@ -68,3 +68,31 @@ nav {
 .descend {
     width: 50%;
 }
+
+.marge {
+    width: 100%;
+}
+
+.premier {
+    margin-top: 13px;
+    margin-right: 11px;
+    width: 177px;
+}
+
+.deuxième{
+    margin-top: 13px;
+    margin-right: 11px;
+    width: 140px;
+}
+
+.troisième {
+    margin-top: 13px;
+    margin-right: 11px;
+    width: 169px;
+}
+
+.quatrième {
+    margin-top: 13px;
+    margin-right: 11px;
+    width: 220px;
+}
