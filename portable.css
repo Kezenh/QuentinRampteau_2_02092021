@@ -23,13 +23,17 @@ header {
 }
 
 .s2 {
-    width: 375px;
+    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 footer {
-    width: 335px;
+    width: 315px;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 25px;
+    padding-bottom: 0;
 }
 
 .navigation {
@@ -125,7 +129,7 @@ nav {
     background-color: white;
     padding: 20px;
     padding-top: 0;
-    padding-bottom: 26px;
+    padding-bottom: 0;
 }
 
 .droite {
@@ -151,4 +155,49 @@ nav {
 
 .imgg {
     width: 325px;
+}
+
+.colonnes {
+    flex-direction: column;
+}
+
+.colonne {
+    width: 335px;
+}
+
+.géant {
+    height: 190px;
+}
+
+.grand {
+    height: 190px;
+}
+
+.petit {
+    height: 190px;
+}
+
+.boiteb1 {
+    height: 134px;
+
+}
+
+.boiteb2 {
+    height: 134px;
+}
+
+.boiteb3 {
+    height: 134px;
+}
+
+.descriptionb {
+    height: 56px;
+}
+
+.cliquableb {
+    margin-bottom: 24px;
+}
+
+.sfooter {
+    width: 100%;
 }
