@@ -16,13 +16,14 @@ header {
 }
 
 .s1 {
-    width: 335px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 375px;
+    flex-wrap: wrap-reverse;
+    margin: 0;
+    margin-top: 37px;
 }
 
 .s2 {
-    width: 335px;
+    width: 375px;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -116,4 +117,38 @@ nav {
 
 .barre {
     width: 337px;
+}
+
+.gauche {
+    width: 100%;
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 0;
+    padding-bottom: 26px;
+}
+
+.droite {
+    width: 100%;
+    padding: 20px;
+    padding-top: 43px;
+    padding-bottom: 26px;
+}
+
+.cliquabled {
+    margin-bottom: 11px;
+    width: 335px;
+}
+
+.cliquableg {
+    margin-bottom: 11px;
+    width: 335px;
+}
+
+.carteg {
+    width: 335px;
+}
+
+.imgg {
+    width: 325px;
 }
