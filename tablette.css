@@ -42,8 +42,9 @@ footer {
 }
 
 .descriptiond {
-    width: 400px;
-    justify-content: flex-end;
+    width: 100%;
+    padding-left: 100px;
+    justify-content: space-between;
 }
 
 .colonne {
