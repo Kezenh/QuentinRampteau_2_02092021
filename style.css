@@ -2,7 +2,8 @@ body {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 400;
-    margin: 0;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 .fas {
