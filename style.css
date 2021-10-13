@@ -125,7 +125,7 @@ header {
 .carteg {
     background-color: white;
     border-radius: 20px;
-    border: white 3px;
+    border: #fff 3px;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -135,7 +135,7 @@ header {
 .carted {
     background-color: white;
     border-radius: 20px;
-    border: white 5px;
+    border: #fff 5px;
     width: 100%;
     height: 144px;
     display: flex;
