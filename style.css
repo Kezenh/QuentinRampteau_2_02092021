@@ -6,24 +6,34 @@ body {
     max-width: 1440px;
 }
 
-.fas {
-    font-size: 12px;
+svg {
+    width: 17px;
+    height: 17px;
 }
 
-.fa-map-marker-alt {
-    font-size: 17px;
+.filtres__svg {
+    width: 25px;
+    height: 20px;
 }
 
 .fa-info {
-    font-size: 11px;
+    width: 12px;
+    height: 12px;
+}
+
+.fa-star {
+    width: 14px;
+    height: 14px;
 }
 
 .fa-chart-line {
-    font-size: 22px;
+    width: 22px;
+    height: 22px;
 }
 
-.icone {
-    font-size: 20px;
+.fa-search {
+    width: 12px;
+    height: 12px;
 }
 
 h1 {
