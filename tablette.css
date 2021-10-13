@@ -1,22 +1,5 @@
-header {
-    width: 924px;
-}
-
-.trouver {
-    width: 924px;
-}
-
 .s1 {
-    width: 924px;
     flex-wrap: wrap-reverse;
-}
-
-.s2 {
-    width: 924px;
-}
-
-footer {
-    width: 924px;
 }
 
 .gauche {
@@ -34,15 +17,15 @@ footer {
 }
 
 .boited {
-    width: 400px;
+    width: 40%;
 }
 
 .imgd {
-    width: 410px;
+    width: 105%;
 }
 
 .descriptiond {
-    width: 100%;
+    width: 60%;
     padding-left: 100px;
     justify-content: space-between;
 }

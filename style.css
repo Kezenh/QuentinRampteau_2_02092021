@@ -2,7 +2,11 @@ body {
     font-size: 18px;
     font-family: Raleway;
     font-weight: 400;
-    margin: 0 auto;
+    margin: 0;
+}
+
+.page {
+    margin: auto;
     max-width: 1440px;
 }
 
@@ -57,7 +61,7 @@ p {
 }
 
 header {
-    width: 1340px;
+    width: auto;
     height: 131px;
     display: flex;
     justify-content: space-between;
@@ -71,7 +75,7 @@ header {
 }
 
 .s1 {
-    width: 1340px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -250,12 +254,8 @@ a {
     padding-right: 28px;
 }
 
-.inscrire:hover {
-    border-top: #0065FC 2px solid;
-}
-
 .trouver {
-    width: 1340px;
+    width: auto;
     margin-left: 50px;
     margin-right: 50px;
 }
@@ -534,7 +534,7 @@ input {
 }
 
 .s2 {
-    width: 1340px;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     margin-left: 50px;
@@ -619,7 +619,7 @@ input {
 }
 
 footer {
-    width: 1340px;
+    width: auto;
     display : flex;
     justify-content: space-between;
     background-color: #F2F2F2;

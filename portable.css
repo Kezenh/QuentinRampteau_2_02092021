@@ -1,5 +1,8 @@
+.page {
+    max-width: 375px;
+}
+
 header {
-    width: 375px;
     margin-left: 0;
     margin-right: 0;
     margin-top: 22px;
@@ -10,26 +13,22 @@ header {
 }
 
 .trouver {
-    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 .s1 {
-    width: 375px;
     flex-wrap: wrap-reverse;
     margin: 0;
     margin-top: 37px;
 }
 
 .s2 {
-    width: 335px;
     margin-left: 20px;
     margin-right: 20px;
 }
 
 footer {
-    width: 315px;
     flex-direction: column;
     padding: 30px;
     margin-top: 25px;
@@ -58,10 +57,6 @@ nav {
     top: 40px;
     right: 20px;
     padding: 0;
-}
-
-.inscrire:hover {
-    border-top: none;
 }
 
 .hbleu:hover {
